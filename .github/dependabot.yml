@@ -1,6 +1,6 @@
 version: 2  # Versión obligatoria de la configuración
 updates:    # Lista de configuraciones para cada ecosistema
   - package-ecosystem: "npm"  # Gestor de paquetes (npm, pip, nuget, etc.)
-    directory: "/"            # Ruta donde está tu package.json (usualmente raíz)
+    directory: "/"            # Ruta donde está tu package.json 
     schedule:
       interval: "daily"       # Frecuencia de escaneo (daily, weekly, monthly)
